@@ -1,0 +1,115 @@
+body {
+    background-color: azure;
+    width: 1000px;
+    height: 1000px;
+}
+nav {
+    jdisplay: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 183, 255);
+    Gap: 50px;
+    float: center;
+    word-spacing: 20px;
+
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+.breadcrumbs {
+    text-align: right;
+}
+.article-container {
+    display: flex;
+}
+.article {
+    background-color: lightcyan;
+
+    
+    display: flex;
+    object-fit: cover;
+    width: 800px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+
+
+}
+.sidebar {
+    object-fit: cover;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    position: fixe;
+    width: 200px;
+}
+Novel-row img {
+    object-fit: cover;
+    
+}
+.Novel-row {
+    display: flex;
+    margin-top: 10px;
+}
+.Novel h4 {
+    margin-top: 5;
+    margin-bottom: 0;
+}
+.Novel-row p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.picture {
+    width: 350px;
+	margin-bottom: 20px;
+    position: relative;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+.picture .text {
+    width: 305px;
+	padding: 20px;
+	background-color: lightgrey;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    visibility: visible;
+}
+.picture .text:hover {
+    visibility: hidden;
+}
+.row img {
+    border-radius: 100px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: beige;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+.footer-container {
+    display: block;
+    text-align: center;
+}
+.footer {
+    background-color: blue;
+}
+.container {
+    background-color: blueviolet;
+    text-align: center;
+}

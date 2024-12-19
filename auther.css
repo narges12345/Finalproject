@@ -1,0 +1,89 @@
+body {
+    background-color: azure;
+    width: 1000px;
+    height: 1000px;
+}
+nav {
+    jdisplay: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 183, 255);
+    Gap: 50px;
+    float: center;
+    word-spacing: 20px;
+
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+.breadcrumbs {
+    text-align: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+.article-container {
+    display: flex;
+    width: 1000px;
+}
+.article {
+    background-color: lightcyan;
+    object-fit: cover;
+    width: 800px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+}
+.sidebar {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 400px;
+    
+    }
+    .id {
+    background-color: lightskyblue;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+    }
+    .site {
+        border-style: solid;
+        border-width: 2px;
+        border-color: blue;
+
+    margin-right: 400px;
+    margin-left: 400px; 
+    background-color: aqua; 
+    }
+    .site-container {
+        display: block;
+    }
+    footer {
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+        background-color: blue;
+    }
+    .container {
+        background-color: blueviolet;
+    }
+    
